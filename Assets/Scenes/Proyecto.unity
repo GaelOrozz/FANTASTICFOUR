@@ -372,7 +372,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &2011187870
+--- !u!1 &2100631394
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,9 +380,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2011187873}
-  - component: {fileID: 2011187872}
-  - component: {fileID: 2011187871}
+  - component: {fileID: 2100631397}
+  - component: {fileID: 2100631396}
+  - component: {fileID: 2100631395}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -390,13 +390,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!154 &2011187871
+--- !u!154 &2100631395
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011187870}
+  m_GameObject: {fileID: 2100631394}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -405,21 +405,21 @@ TerrainCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: 742df0ef5671615499555679c0e71d5d, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: d207cf9b4fa84e54aaf392a9312d06bc, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &2011187872
+--- !u!218 &2100631396
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011187870}
+  m_GameObject: {fileID: 2100631394}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 742df0ef5671615499555679c0e71d5d, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: d207cf9b4fa84e54aaf392a9312d06bc, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -450,13 +450,13 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!4 &2011187873
+--- !u!4 &2100631397
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011187870}
+  m_GameObject: {fileID: 2100631394}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -471,4 +471,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 486759162}
   - {fileID: 1618574100}
-  - {fileID: 2011187873}
+  - {fileID: 2100631397}
