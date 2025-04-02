@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Landscape.unity
     guid: 6f125acdbc413e74e9bfe3716f7d2131
+  - enabled: 1
+    path: Assets/Scenes/cueva.unity
+    guid: 5b83f35d1cd35db429dbf0117b6c6f80
   m_configObjects: {}
